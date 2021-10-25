@@ -39,6 +39,13 @@ class ViewController: UIViewController {
                 self.imageView.image = UIImage(data: data)
             }
         }
+        
+        DispatchQueue.global().sync {
+            <#code#>
+        }
+//        DispatchQueue.main.sync {
+//
+//        }
     }
     
     // MARK: RxSwift 사용
@@ -61,11 +68,12 @@ class ViewController: UIViewController {
             .subscribe({ result in
                 switch result {
                 case let .next(image):
+                    print("called .next")
                     self.imageView.image = image
                 case let .error(err):
                     print(err.localizedDescription)
-                    
                 case .completed:
+                    print("called .completed")
                     break
                 }
             })

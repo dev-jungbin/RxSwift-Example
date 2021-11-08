@@ -40,12 +40,6 @@ class ViewController: UIViewController {
             }
         }
         
-        DispatchQueue.global().sync {
-            <#code#>
-        }
-//        DispatchQueue.main.sync {
-//
-//        }
     }
     
     // MARK: RxSwift 사용

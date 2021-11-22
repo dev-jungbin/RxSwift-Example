@@ -17,23 +17,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter your ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bm8-oB-8bd">
-                                <rect key="frame" x="20" y="261" width="374" height="34"/>
+                                <rect key="frame" x="20" y="192" width="374" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter your PW" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pH1-ww-XY5">
-                                <rect key="frame" x="20" y="315" width="374" height="34"/>
+                                <rect key="frame" x="20" y="246" width="374" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign In" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RKp-qE-2li">
-                                <rect key="frame" x="20" y="213" width="374" height="28"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign Up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RKp-qE-2li">
+                                <rect key="frame" x="20" y="144" width="374" height="28"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y3E-6Y-En5">
-                                <rect key="frame" x="20" y="408" width="374" height="50"/>
+                                <rect key="frame" x="20" y="339" width="374" height="50"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="AbU-qR-7cB"/>
@@ -44,7 +44,7 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FjI-Xh-zoV">
-                                <rect key="frame" x="20" y="357" width="374" height="21"/>
+                                <rect key="frame" x="20" y="288" width="374" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="LNI-6a-bAE"/>
                                 </constraints>
@@ -63,7 +63,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FjI-Xh-zoV" secondAttribute="trailing" constant="20" id="amV-1X-F53"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RKp-qE-2li" secondAttribute="trailing" constant="20" id="ei3-m2-nok"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pH1-ww-XY5" secondAttribute="trailing" constant="20" id="flZ-rA-EPE"/>
-                            <constraint firstItem="RKp-qE-2li" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="169" id="gaR-MD-7R3"/>
+                            <constraint firstItem="RKp-qE-2li" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="gaR-MD-7R3"/>
                             <constraint firstItem="pH1-ww-XY5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="lVO-er-8hZ"/>
                             <constraint firstItem="bm8-oB-8bd" firstAttribute="top" secondItem="RKp-qE-2li" secondAttribute="bottom" constant="20" id="n2k-IW-WVx"/>
                             <constraint firstItem="FjI-Xh-zoV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="odV-1d-tPb"/>

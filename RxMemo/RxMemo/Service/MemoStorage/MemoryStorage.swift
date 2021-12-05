@@ -22,9 +22,7 @@ class MemoStorage: MemoStorageType {
     func createMemo(content: String) -> Observable<Memo> {
         let memo = Memo(content: content)
         list.insert(memo, at: 0)
-        
         store.onNext(list)
-        
         return Observable.just(memo)
     }
     
@@ -41,9 +39,7 @@ class MemoStorage: MemoStorageType {
             list.remove(at: index)
             list.insert(updated, at: index)
         }
-        
         store.onNext(list)
-        
         return Observable.just(updated)
     }
     
@@ -52,11 +48,7 @@ class MemoStorage: MemoStorageType {
         if let index = list.firstIndex(where: { $0 == memo }) {
             list.remove(at: index)
         }
-        
         store.onNext(list)
-        
         return Observable.just(memo)
     }
-    
-    
 }

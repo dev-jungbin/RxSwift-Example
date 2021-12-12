@@ -27,7 +27,7 @@
         <!--메모 목록-->
         <scene sceneID="dAn-B6-9Qz">
             <objects>
-                <viewController id="GAS-Hl-i80" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MemoListViewController" id="GAS-Hl-i80" customClass="MemoListViewController" customModule="RxMemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YNL-Ff-o0f">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -44,7 +44,7 @@
         <!--메모 보기-->
         <scene sceneID="Axr-r6-vFg">
             <objects>
-                <viewController storyboardIdentifier="DetailVC" id="9Le-oH-Lt1" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MemoDetailViewController" id="9Le-oH-Lt1" customClass="MemoDetailViewController" customModule="RxMemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c5V-dE-chQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -61,7 +61,7 @@
         <!--새 메모-->
         <scene sceneID="x6O-aO-7vs">
             <objects>
-                <viewController id="dwu-ng-1T3" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MemoComposeViewController" id="dwu-ng-1T3" customClass="MemoComposeViewController" customModule="RxMemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4ed-O9-FTk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

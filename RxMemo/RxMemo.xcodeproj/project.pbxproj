@@ -26,6 +26,7 @@
 		5C7C4ECE2778A5090014B49C /* TransitionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C4ECD2778A5090014B49C /* TransitionModel.swift */; };
 		5C7C4ED02778A6090014B49C /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C4ECF2778A6090014B49C /* Scene.swift */; };
 		5C7C4ED22778A7C40014B49C /* SceneCoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C4ED12778A7C40014B49C /* SceneCoordinatorType.swift */; };
+		5C7C4ED42778B8EB0014B49C /* SceneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C4ED32778B8EB0014B49C /* SceneCoordinator.swift */; };
 		B7A349D1E8EFDDCC312AF858 /* Pods_RxMemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD92659BFD2FC4B2A67C11A9 /* Pods_RxMemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		5C7C4ECD2778A5090014B49C /* TransitionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionModel.swift; sourceTree = "<group>"; };
 		5C7C4ECF2778A6090014B49C /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 		5C7C4ED12778A7C40014B49C /* SceneCoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinatorType.swift; sourceTree = "<group>"; };
+		5C7C4ED32778B8EB0014B49C /* SceneCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinator.swift; sourceTree = "<group>"; };
 		CD92659BFD2FC4B2A67C11A9 /* Pods_RxMemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FD621D6C3BBECB6E6E20C8 /* Pods-RxMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMemo.debug.xcconfig"; path = "Target Support Files/Pods-RxMemo/Pods-RxMemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,6 +150,7 @@
 				5C7C4ECD2778A5090014B49C /* TransitionModel.swift */,
 				5C7C4ECF2778A6090014B49C /* Scene.swift */,
 				5C7C4ED12778A7C40014B49C /* SceneCoordinatorType.swift */,
+				5C7C4ED32778B8EB0014B49C /* SceneCoordinator.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 			files = (
 				5C4C4FB9274BD5CD009E1008 /* MemoryStorage.swift in Sources */,
 				5C73EA232765BAF600767056 /* MemoComposeViewModel.swift in Sources */,
+				5C7C4ED42778B8EB0014B49C /* SceneCoordinator.swift in Sources */,
 				5C7C4ED02778A6090014B49C /* Scene.swift in Sources */,
 				5C73EA1B2765BA1700767056 /* MemoDetailViewController.swift in Sources */,
 				5C73EA252765BBA100767056 /* ViewModelBindableType.swift in Sources */,

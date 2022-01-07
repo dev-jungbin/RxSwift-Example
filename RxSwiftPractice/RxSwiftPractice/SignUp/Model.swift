@@ -8,6 +8,6 @@
 import Foundation
 
 struct UserModel {
-    var ID: String
-    var PW: String
+    var PW1: String
+    var PW2: String
 }

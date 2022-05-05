@@ -8,7 +8,7 @@
 import UIKit
 
 enum Scene {
-    case list(MemoListViewModel)
+    case list(MemoListViewModel) // 씬 이름과 연관된 뷰모델을 연관값으로 지정
     case detail(MemoDetailViewModel)
     case compose(MemoComposeViewModel)
 }
@@ -24,30 +24,27 @@ extension Scene {
             guard let nav = storyboard.instantiateViewController(withIdentifier: "ListNav") as? UINavigationController else {
                 fatalError()
             }
-            
             guard var listVC = nav.viewControllers.first as? MemoListViewController else {
                 fatalError()
             }
-            
             listVC.bind(viewModel: viewModel)
             return nav
+            
         case .detail(let viewModel):
             // 상세 보기 씬 생성
             guard var detailVC = storyboard.instantiateViewController(withIdentifier: MemoDetailViewController.ID) as? MemoDetailViewController else {
                 fatalError()
             }
-            
             detailVC.bind(viewModel: viewModel)
             return detailVC
+            
         case .compose(let viewModel):
             guard let nav = storyboard.instantiateViewController(withIdentifier: "ComposeNav") as? UINavigationController else {
                 fatalError()
             }
-            
             guard var composeVC = nav.viewControllers.first as? MemoComposeViewController else {
                 fatalError()
             }
-            
             composeVC.bind(viewModel: viewModel)
             return nav
         }

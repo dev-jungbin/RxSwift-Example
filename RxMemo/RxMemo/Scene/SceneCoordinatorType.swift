@@ -9,7 +9,7 @@ import Foundation
 import RxSwift
 
 protocol SceneCoordinatorType {
-    @discardableResult // Return 안 해도 ㄱㅊ
+    @discardableResult // Return 사용 안 해도 ㄱㅊ
     func transition(to scene: Scene, using style: TransitionStyle, animated: Bool) -> Completable
     
     @discardableResult
